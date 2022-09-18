@@ -1,16 +1,14 @@
+import Favorites from "./Favorites/Favorites";
+import Form from "./Form/Form";
+import Imgs from "./Imgs/Imgs";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Form />
+      <Imgs />
+      <Favorites />
+    </>
+
   );
 };
